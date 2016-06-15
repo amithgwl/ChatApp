@@ -60,7 +60,7 @@ function connectHandler(cond) {
 }
 var url = "http://localhost:7070/http-bind/";
 var connection = null;
- var username = $localStorage.loggedUserid+'@amith';
+ var username = $localStorage.loggedUserid+'@Your_Computer_Name';
  var password = 'admin';
  connection = new Strophe.Connection(url);
  connection.connect(username, password, connectHandler);
